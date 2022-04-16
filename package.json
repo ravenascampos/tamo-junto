@@ -10,8 +10,12 @@
   },
   "dependencies": {
     "next": "12.1.4",
+    "polished": "^4.2.2",
     "react": "18.0.0",
-    "react-dom": "18.0.0"
+    "react-dom": "18.0.0",
+    "reactstrap": "^9.0.2",
+    "styled-components": "^5.3.5",
+    "swiper": "^8.1.0"
   },
   "devDependencies": {
     "eslint": "8.13.0",
