@@ -46,7 +46,7 @@ export const Card = styled.div`
   background: ${theme.colors.neutral.white};
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
   border-radius: 8px;
-  margin: 3rem 2rem 2rem 2rem;
+  margin: 3rem 2rem 3rem 2rem;
 
   img {
     margin-bottom: 1rem;

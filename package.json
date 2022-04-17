@@ -13,6 +13,7 @@
     "polished": "^4.2.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-responsive": "^9.0.0-beta.6",
     "reactstrap": "^9.0.2",
     "styled-components": "^5.3.5",
     "swiper": "^8.1.0"

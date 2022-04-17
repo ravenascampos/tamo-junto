@@ -2,6 +2,7 @@ import React from "react";
 import HomeDescription from "./components/HomeDescription";
 import Purpose from "./components/Purpose";
 import SwiperHome from "./components/SwiperHome";
+import SwiperThemes from "./components/SwiperThemes";
 
 export default function HomeScreen() {
   return (
@@ -9,6 +10,7 @@ export default function HomeScreen() {
       <HomeDescription />
       <SwiperHome />
       <Purpose />
+      <SwiperThemes />
     </>
   );
 }
