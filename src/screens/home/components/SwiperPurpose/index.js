@@ -1,12 +1,12 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
-import { Container, Card, SwiperWrapper } from "./swiperHome.style";
+import { Container, Card, SwiperWrapper } from "./swiperPurpose.style";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useContext } from "react";
 import { AppContext } from "../../../../context/AppContext";
 
-export default function SwiperHome() {
+export default function SwiperPurpose() {
   const { cardsList } = useContext(AppContext);
   return (
     <Container id="purpose">

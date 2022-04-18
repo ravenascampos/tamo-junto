@@ -32,7 +32,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link href={"#"}>
+            <Link href={"#downloadNow"}>
               <a className="title-menu">Baixe agora</a>
             </Link>
           </li>

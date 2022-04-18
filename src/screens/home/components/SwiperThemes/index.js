@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { AppContext } from "../../../../context/AppContext";
-import { SwiperWrapper } from "../SwiperHome/swiperHome.style";
+import { SwiperWrapper } from "../SwiperPurpose/swiperPurpose.style";
 import "swiper/css";
 import "swiper/css/pagination";
 import MediaQuery from "react-responsive";
