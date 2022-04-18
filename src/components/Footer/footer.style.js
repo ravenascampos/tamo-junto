@@ -22,6 +22,14 @@ export const Wrapper = styled.div`
     font-weight: 700;
   }
 
+  @media (min-width: 1023px) {
+    padding-left: 2rem 25rem 2rem 25rem;
+
+    p {
+      margin-top: 1.5rem;
+    }
+  }
+
   @media (min-width: 1439px) {
     padding: 2.75rem 26.375rem 2.75rem 26.375rem;
 
@@ -54,11 +62,13 @@ export const Nav = styled.ul`
     color: ${theme.colors.secondary.s70};
   }
 
-  @media (min-width: 1439px) {
+  @media (min-width: 1023px) {
+    display: flex;
     flex-direction: row;
+    justify-content: center;
 
     li {
-      margin-left: 2rem;
+      margin-right: 2rem;
     }
 
     li a {

@@ -49,18 +49,18 @@ export const Container = styled.div`
 export const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.303rem;
+  gap: 1rem;
 
   img {
     height: 3.194rem;
   }
   .play-store {
-    width: 10.801rem;
+    width: 10rem;
     border-radius: 5px;
   }
 
   .apple-store {
-    width: 153.33px;
+    width: 9rem;
     border-radius: 7px;
   }
 
