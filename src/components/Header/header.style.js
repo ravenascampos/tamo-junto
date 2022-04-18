@@ -22,7 +22,6 @@ export const Navigate = styled.nav`
 
   ul li a:hover {
     color: ${theme.colors.secondary.s70};
-    position: relative;
   }
 
   .nav-options {
