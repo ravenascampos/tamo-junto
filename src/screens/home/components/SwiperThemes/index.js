@@ -13,7 +13,7 @@ import CardThemes from "../CardThemes";
 export default function SwiperThemes() {
   const { themesList } = useContext(AppContext);
   return (
-    <Container>
+    <Container id="community">
       <h2>O que rola na nossa comunidade:</h2>
       <MediaQuery maxWidth={1023}>
         <SwiperWrapper>

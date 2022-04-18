@@ -17,12 +17,12 @@ export default function Header() {
         <Logo />
         <ul className={click ? "nav-options active" : "nav-options"}>
           <li className="option" onClick={closeMobileMenu}>
-            <Link href={"#"}>
+            <Link href={"#purpose"}>
               <a className="title-menu">Proposta</a>
             </Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link href={"#"}>
+            <Link href={"#community"}>
               <a className="title-menu">Comunidade</a>
             </Link>
           </li>

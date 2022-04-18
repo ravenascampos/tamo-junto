@@ -1,11 +1,12 @@
 import { createContext, useEffect, useState } from "react";
-import { cards, themes } from "./api";
+import { cards, themes, testimonial } from "./api";
 
 export const AppContext = createContext();
 
 export function AppProvider({ children }) {
   const [cardsList, setCardsList] = useState([]);
   const [themesList, setThemesList] = useState([]);
+  const [testimonialList, setTestimonialList] = useState([]);
 
   async function loadCards() {
     try {
@@ -23,9 +24,18 @@ export function AppProvider({ children }) {
     }
   }
 
+  async function loadTestimonial() {
+    try {
+      setTestimonialList(testimonial);
+    } catch (error) {
+      setTestimonialList(null);
+    }
+  }
+
   useEffect(() => {
     loadCards();
     loadThemes();
+    loadTestimonial();
   }, []);
 
   return (
@@ -33,6 +43,7 @@ export function AppProvider({ children }) {
       value={{
         cardsList,
         themesList,
+        testimonialList,
       }}
     >
       {children}

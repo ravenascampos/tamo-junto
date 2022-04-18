@@ -63,3 +63,24 @@ export const themes = [
     text: "Espaço pra conversar sobre mentorias, consultorias, cursos ou mesmo artigos sobre empreendedorismo que podem agregar pra comunidade.",
   },
 ];
+
+export const testimonial = [
+  {
+    img: "/images/leonardo-testimonial.png",
+    name: "Leonardo",
+    title: "Bar da Granja",
+    text: "Com a tamojunto eu me juntei com outros bares pra comprar cerveja e destilados em maior quantidade e conseguimos preços bem melhores com o nosso fornecedor",
+  },
+  {
+    img: "/images/eduardo-testimonial.png",
+    name: "Eduardo",
+    title: "Bistrô Junteau",
+    text: "Com ajuda da comunidade tamojunto, eu consegui muito apoio e informações valiosíssimas pra abrir meu restaurante na cidade. Já comecei com o pé direito e cheio de amigos do ramo",
+  },
+  {
+    img: "/images/michele-testimonial.png",
+    name: "Michele",
+    title: "Delícias Doceria",
+    text: "A comunidade foi essencial para que eu conseguisse alugar uma cozinha no contraturno de um restaurante pra fazer meus doces, além de arrumar parceiros pra revender os meus produtos.",
+  },
+];

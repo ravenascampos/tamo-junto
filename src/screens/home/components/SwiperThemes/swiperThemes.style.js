@@ -10,6 +10,10 @@ export const Container = styled.section`
     margin-right: 1rem;
   }
 
+  @media (min-width: 1023px) {
+    margin-bottom: 10.937rem;
+  }
+
   h2 {
     font-weight: 600;
     font-size: ${theme.typography.heading.heading6.fontSize};
