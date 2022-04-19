@@ -84,3 +84,42 @@ export const testimonial = [
     text: "A comunidade foi essencial para que eu conseguisse alugar uma cozinha no contraturno de um restaurante pra fazer meus doces, além de arrumar parceiros pra revender os meus produtos.",
   },
 ];
+
+export const faq = [
+  {
+    ariaControls: "panel1a-content",
+    id: "panel1a-header",
+    title: "O que é o tamojunto?",
+    text: "A tamojunto é uma comunidade focada em empreendedores. É seu espaço pra tirar dúvidas e compartilhar informações pra ajudar todo mundo a sobreviver e prosperar nesse contexto pós pandêmico, que abalou muitos negócios do ramo alimentício (food service).",
+  },
+  {
+    ariaControls: "panel2a-content",
+    id: "panel2a-header",
+    title: "Quem pode participar?",
+    text: "Você que tem (ou é sócio de) um CNPJ ativo (MEI, Simples nacional, ME etc) e trabalha com serviços e produtos de alimentação / bebidas: Restaurantes, rotisseries, bares, pubs, barzinhos, bistrôs, confeitarias, docerias, coffee shops, sucarias, depósito de bebidas, delivery de marmitex, restaurantes japoneses ou chineses, esfiharias, pizzarias,  etc... Todo mundo que trabalha com alimentos é muito bem-vindo 😊 Atenção: Nesse início de tamojunto, nós estamos liberando o cadastro apenas para estabelecimentos no estado de SP. ",
+  },
+  {
+    ariaControls: "panel3a-content",
+    id: "panel3a-header",
+    title: "E quem trabalha só com delivery?",
+    text: "Se você não tem um local pra atender o público, mas realiza deliveries ou vendas de porta em porta etc, também pode participar, desde que suas atividades sejam realizadas dentro do estado de SP.",
+  },
+  {
+    ariaControls: "panel4a-content",
+    id: "panel4a-header",
+    title: "O que posso fazer lá?",
+    text: "Você pode participar e ajudar a comunidade a crescer: Participe ativamente, dê ideias, peça opiniões, busque ajuda, compartilhe o que funcionou ou não quando você tentou implantar algo no seu negócio... o maior valor da comunidade é justamente essa troca que faz todo mundo crescer, empreender melhor e prosperar com a força da colaboração das pessoas.",
+  },
+  {
+    ariaControls: "panel5a-content",
+    id: "panel5a-header",
+    title: "Quanto custa participar?",
+    text: "Nada! A comunidade é totalmente gratuita para quem quer ler, comentar ou publicar nos nossos fóruns de discussão. Nós apenas cobraremos uma pequena porcentagem dos valores transacionados na nossa função de aluguel e venda, e contaremos com anúncios personalizados pra te ajudar a aprender mais e/ou empreender melhor e cobrir nossos custos de operação.",
+  },
+  {
+    ariaControls: "panel6a-content",
+    id: "panel6a-header",
+    title: "Por que usar o tamojunto?",
+    text: "Porque a tamojunto é uma plataforma que foi desenvolvida com muito carinho pra ajudar todos os empreendedores a trocar informação e ideias pra inovar e sobreviver nesse mundo cheio de mudanças. Juntos somos mais fortes, e a comunidade é uma excelente ferramenta pra todo mundo prosperar #junto",
+  },
+];
