@@ -2,8 +2,11 @@ import styled from "styled-components";
 import { theme } from "../../../../styles/theme";
 
 export const Container = styled.div`
+  background-color: transparent;
+
   .MuiAccordion-root {
     box-shadow: none;
+    background-color: transparent;
   }
 
   .MuiAccordionSummary-root {
@@ -17,11 +20,13 @@ export const Container = styled.div`
   .Mui-expanded {
     background: ${theme.colors.primary.p20};
     border-radius: 12px;
+    box-shadow: none;
   }
 
   .MuiAccordionDetails-root {
     background: ${theme.colors.primary.p20};
     border-radius: 12px;
+    box-shadow: none;
   }
 
   .icon {

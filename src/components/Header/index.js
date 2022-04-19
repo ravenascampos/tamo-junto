@@ -27,7 +27,7 @@ export default function Header() {
             </Link>
           </li>
           <li className="option" onClick={closeMobileMenu}>
-            <Link href={"#"}>
+            <Link href={"#faq"}>
               <a className="title-menu">Como funciona?</a>
             </Link>
           </li>

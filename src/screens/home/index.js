@@ -5,7 +5,7 @@ import Purpose from "./components/Purpose";
 import SwiperThemes from "./components/SwiperThemes";
 import SwiperTestimonial from "./components/SwiperTestimonial";
 import DownloadNow from "./components/DownloadNow";
-import AccordionFaq from "./components/AccordionFaq";
+import Faq from "./components/Faq";
 
 export default function HomeScreen() {
   return (
@@ -15,7 +15,7 @@ export default function HomeScreen() {
       <Purpose />
       <SwiperThemes />
       <SwiperTestimonial />
-      <AccordionFaq />
+      <Faq />
       <DownloadNow />
     </>
   );
