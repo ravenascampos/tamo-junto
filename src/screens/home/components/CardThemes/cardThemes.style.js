@@ -4,14 +4,13 @@ import { theme } from "../../../../styles/theme";
 export const Container = styled.div`
   @media (min-width: 1024px) {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
     justify-content: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 
   @media (min-width: 1439px) {
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
     margin-left: 7rem;
     margin-right: 5rem;
